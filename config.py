@@ -22,6 +22,7 @@ SONG_DOWNLOAD_DURATION = int(
 )
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
+CLONE_LOGGER = LOGGER_ID
 
 OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
 
