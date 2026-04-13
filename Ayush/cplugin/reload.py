@@ -12,12 +12,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from AyushMusic import app
-from AyushMusic.core.call import PRO
-from AyushMusic.misc import db
-from AyushMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from AyushMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from AyushMusic.utils.formatters import alpha_to_int, get_readable_time
+from Ayush import app
+from Ayush.core.call import PRO
+from Ayush.misc import db
+from Ayush.utils.database import get_assistant, get_authuser_names, get_cmode
+from Ayush.utils.decorators import ActualAdminCB, AdminActual, language
+from Ayush.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
