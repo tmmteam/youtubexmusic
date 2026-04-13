@@ -2,7 +2,7 @@ import random
 from typing import Dict, List, Union
 
 from Ayush import userbot
-from Ayush.core.mongo import mongodb, pymongodb
+from Ayush.core.mongo import mongodb, mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
