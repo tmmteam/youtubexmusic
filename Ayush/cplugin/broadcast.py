@@ -4,22 +4,22 @@ from pyrogram import filters, Client
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from AyushMusic import app
-from AyushMusic.misc import SUDOERS
-from AyushMusic.utils.database import (
+from Ayush import app
+from Ayush.misc import SUDOERS
+from Ayush.utils.database import (
     get_client,
     get_served_chats_clone,
     get_served_users_clone,
 )
-from AyushMusic.utils.decorators.language import language
-from AyushMusic.utils.formatters import alpha_to_int
+from Ayush.utils.decorators.language import language
+from Ayush.utils.formatters import alpha_to_int
 from config import adminlist
 import random
 from typing import Dict, List, Union
 
-from AyushMusic import userbot
-from AyushMusic.core.mongo import mongodb, pymongodb
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db, check_bot_premium
+from Ayush import userbot
+from Ayush.core.mongo import mongodb, pymongodb
+from Ayush.utils.database.clonedb import get_owner_id_from_db, check_bot_premium
 from config import SUPPORT_CHAT, OWNER_ID
 
 authdb = mongodb.adminauth
