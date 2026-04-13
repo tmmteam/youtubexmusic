@@ -1,10 +1,10 @@
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from AyushMusic import app
-from AyushMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from AyushMusic.utils.decorators import language
-from AyushMusic.utils.inline.settings import playmode_users_markup
+from Ayush import app
+from Ayush.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from Ayush.utils.decorators import language
+from Ayush.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
