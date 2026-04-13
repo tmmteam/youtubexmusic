@@ -9,17 +9,17 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from AyushMusic import app
-from AyushMusic.core.userbot import assistants
-from AyushMusic.misc import SUDOERS, mongodb
-from AyushMusic.plugins import ALL_MODULES
-from AyushMusic.utils.database import (
+from Ayush import app
+from Ayush.core.userbot import assistants
+from Ayush.misc import SUDOERS, mongodb
+from Ayush.plugins import ALL_MODULES
+from Ayush.utils.database import (
     get_served_chats_clone,
     get_served_users_clone,
     get_sudoers,
 )
-from AyushMusic.utils.decorators.language import language, languageCB
-from AyushMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from Ayush.utils.decorators.language import language, languageCB
+from Ayush.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
