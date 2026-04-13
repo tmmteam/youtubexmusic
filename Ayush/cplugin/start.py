@@ -5,16 +5,16 @@ from pyrogram import filters, Client
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
-from AyushMusic import app
+from Ayush import app
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 import config
 # from AyushMusic import app
-from AyushMusic.misc import _boot_
-from AyushMusic.plugins.sudo.sudoers import sudoers_list
-from AyushMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from AyushMusic.utils import bot_sys_stats
-from AyushMusic.utils.database import (
+from Ayush.misc import _boot_
+from Ayush.plugins.sudo.sudoers import sudoers_list
+from Ayush.utils.database import get_served_chats, get_served_users, get_sudoers
+from Ayush.utils import bot_sys_stats
+from Ayush.utils.database import (
     add_served_chat_clone,
     add_served_user_clone,
     blacklisted_chats,
@@ -22,15 +22,15 @@ from AyushMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from AyushMusic.utils.decorators.language import LanguageStart
-from AyushMusic.utils.formatters import get_readable_time
-from AyushMusic.utils.inline import help_pannel, private_panel, start_panel
+from Ayush.utils.decorators.language import LanguageStart
+from Ayush.utils.formatters import get_readable_time
+from Ayush.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS, OWNER_ID, STREAMI_PICS
 from strings import get_string
 
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Ayush.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
-from AyushMusic.cplugin.setinfo import get_logging_status, get_log_channel
+from Ayush.cplugin.setinfo import get_logging_status, get_log_channel
 
 #--------------------------
 
