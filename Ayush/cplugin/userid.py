@@ -1,4 +1,4 @@
-from AyushMusic import app
+from Ayush import app
 from pyrogram import Client, filters
 
 from pyrogram.enums import ParseMode
