@@ -1,11 +1,11 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from AyushMusic import YouTube, app
-from AyushMusic.core.call import PRO
-from AyushMusic.misc import db
-from AyushMusic.utils import AdminRightsCheck, seconds_to_min
-from AyushMusic.utils.inline import close_markup
+from Ayush import YouTube, app
+from Ayush.core.call import PRO
+from Ayush.misc import db
+from Ayush.utils import AdminRightsCheck, seconds_to_min
+from Ayush.utils.inline import close_markup
 from config import BANNED_USERS
 
 
