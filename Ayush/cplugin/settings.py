@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from AyushMusic import app
-from AyushMusic.utils.database import (
+from Ayush import app
+from Ayush.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from AyushMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from AyushMusic.utils.decorators.admins import ActualAdminCB
-from AyushMusic.utils.decorators.language import language, languageCB
-from AyushMusic.utils.inline.settings import (
+from Ayush.utils.decorators.admins import ActualAdminCB
+from Ayush.utils.decorators.language import language, languageCB
+from Ayush.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from AyushMusic.utils.inline.start import private_panel
+from Ayush.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
