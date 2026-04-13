@@ -1,4 +1,4 @@
-from AyushMusic.misc import clonedb
+from Ayush.misc import clonedb
 
 active = []
 stream = {}
