@@ -5,25 +5,25 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
-from AyushMusic.utils.database import get_assistant
+from Ayush.utils.database import get_assistant
 import config
-from AyushMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from AyushMusic.core.call import PRO
-from AyushMusic.misc import SUDOERS
-from AyushMusic.utils.inline import panel_markup_clone
-from AyushMusic.utils import seconds_to_min, time_to_seconds
-from AyushMusic.utils.channelplay import get_channeplayCB
-from AyushMusic.utils.decorators.language import languageCB
-from AyushMusic.utils.decorators.play import CPlayWrapper
-from AyushMusic.utils.formatters import formats
-from AyushMusic.utils.inline import (
+from Ayush import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from Ayush.core.call import PRO
+from Ayush.misc import SUDOERS
+from Ayush.utils.inline import panel_markup_clone
+from Ayush.utils import seconds_to_min, time_to_seconds
+from Ayush.utils.channelplay import get_channeplayCB
+from Ayush.utils.decorators.language import languageCB
+from Ayush.utils.decorators.play import CPlayWrapper
+from Ayush.utils.formatters import formats
+from Ayush.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from AyushMusic.utils.database import (
+from Ayush.utils.database import (
     add_served_chat_clone,
     add_served_user_clone,
     blacklisted_chats,
@@ -31,11 +31,11 @@ from AyushMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from AyushMusic.utils.logger import play_logs, clone_bot_logs
-from AyushMusic.cplugin.setinfo import get_logging_status, get_log_channel
+from Ayush.utils.logger import play_logs, clone_bot_logs
+from Ayush.cplugin.setinfo import get_logging_status, get_log_channel
 from config import BANNED_USERS, lyrical
 from time import time
-from AyushMusic.utils.extraction import extract_user
+from Ayush.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
