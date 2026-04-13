@@ -2,16 +2,16 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AyushMusic import YouTube, app
-from AyushMusic.core.call import PRO
-from AyushMusic.misc import db
-from AyushMusic.utils.database import get_loop
-from AyushMusic.utils.decorators import AdminRightsCheck
-from AyushMusic.utils.inline import close_markup, stream_markup, stream_markup2
-from AyushMusic.utils.stream.autoclear import auto_clean
-from AyushMusic.utils.thumbnails import get_thumb
+from Ayush import YouTube, app
+from Ayush.core.call import PRO
+from Ayush.misc import db
+from Ayush.utils.database import get_loop
+from Ayush.utils.decorators import AdminRightsCheck
+from Ayush.utils.inline import close_markup, stream_markup, stream_markup2
+from Ayush.utils.stream.autoclear import auto_clean
+from Ayush.utils.thumbnails import get_thumb
 from config import BANNED_USERS
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Ayush.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 
 @Client.on_message(
