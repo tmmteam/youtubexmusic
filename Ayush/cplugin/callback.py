@@ -8,13 +8,13 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 import config
-from AyushMusic.utils.database import get_assistant
+from Ayush.utils.database import get_assistant
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from AyushMusic import YouTube, app
-from AyushMusic.core.call import PRO
-from AyushMusic.misc import SUDOERS, db
-from AyushMusic.utils.database import (
+from Ayush import YouTube, app
+from Ayush.core.call import PRO
+from Ayush.misc import SUDOERS, db
+from Ayush.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -28,9 +28,9 @@ from AyushMusic.utils.database import (
     is_muted,
     set_loop,
 )
-from AyushMusic.utils.decorators.language import languageCB
-from AyushMusic.utils.formatters import seconds_to_min
-from AyushMusic.utils.inline import (
+from Ayush.utils.decorators.language import languageCB
+from Ayush.utils.formatters import seconds_to_min
+from Ayush.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup_timer,
@@ -52,8 +52,8 @@ from AyushMusic.utils.inline import (
     queue_markup,
     panel_markup_1,
 )
-from AyushMusic.utils.stream.autoclear import auto_clean
-from AyushMusic.utils.thumbnails import get_thumb
+from Ayush.utils.stream.autoclear import auto_clean
+from Ayush.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
@@ -66,7 +66,7 @@ from config import (
 )
 from strings import get_string
 from config import lyrical
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Ayush.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 wrong = {}
 
