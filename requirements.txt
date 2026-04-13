@@ -13,7 +13,7 @@ pillow
 psutil
 pyrogram==2.0.106
 tgcrypto
-pytgcalls==0.9.10
+pytgcalls
 pykeyboard
 pyrofork
 python-dotenv
