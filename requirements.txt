@@ -11,7 +11,9 @@ httpx[http2]
 motor
 pillow
 psutil
-py-tgcalls==0.9.7
+pyrogram==2.0.106
+tgcrypto
+pytgcalls==3.0.0.dev24
 pykeyboard
 pyrofork
 python-dotenv
@@ -19,7 +21,6 @@ pyyaml
 requests
 speedtest-cli
 spotipy
-tgcrypto
 unidecode
 yt-dlp
 youtube-search
