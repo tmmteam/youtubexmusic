@@ -3,10 +3,10 @@ import random
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from AyushMusic import app
-from AyushMusic.misc import db
-from AyushMusic.utils.decorators import AdminRightsCheck
-from AyushMusic.utils.inline import close_markup
+from Ayush import app
+from Ayush.misc import db
+from Ayush.utils.decorators import AdminRightsCheck
+from Ayush.utils.inline import close_markup
 from config import BANNED_USERS
 
 
