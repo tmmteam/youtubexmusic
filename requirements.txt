@@ -12,8 +12,9 @@ pillow
 psutil
 pyrogram==2.0.106
 tgcrypto
-pytgcalls==2.1.0
-tgcalls==3.0.0.dev6
+pyrogram==2.0.106
+tgcrypto
+git+https://github.com/pytgcalls/pytgcalls
 python-dotenv
 pyyaml
 requests
