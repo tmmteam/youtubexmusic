@@ -2,14 +2,14 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram import filters, Client
-from AyushMusic import app
-from AyushMusic.misc import SUDOERS
-from AyushMusic.utils.decorators.language import language
+from Ayush import app
+from Ayush.misc import SUDOERS
+from Ayush.utils.decorators.language import language
 
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel, check_bot_premium
+from Ayush.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel, check_bot_premium
 from config import SUPPORT_CHAT, OWNER_ID
 
-from AyushMusic.utils.database import clonebotdb
+from Ayush.utils.database import clonebotdb
 
 
 #set clone bot support channel
