@@ -10,19 +10,19 @@ from pyrogram.errors.exceptions.bad_request_400 import (
     AccessTokenExpired,
     AccessTokenInvalid,
 )
-from AyushMusic.utils.database import get_assistant
+from Ayush.utils.database import get_assistant
 from config import API_ID, API_HASH
-from AyushMusic import app
+from Ayush import app
 from config import OWNER_ID
-from AyushMusic.misc import SUDOERS
-from AyushMusic.utils.database import get_assistant, clonebotdb
-from AyushMusic.utils.database.clonedb import has_user_cloned_any_bot
+from Ayush.misc import SUDOERS
+from Ayush.utils.database import get_assistant, clonebotdb
+from Ayush.utils.database.clonedb import has_user_cloned_any_bot
 from config import LOGGER_ID, CLONE_LOGGER
 import requests
-from AyushMusic.utils.decorators.language import language
+from Ayush.utils.decorators.language import language
 import pyrogram.errors
 
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db
+from Ayush.utils.database.clonedb import get_owner_id_from_db
 from config import SUPPORT_CHAT, OWNER_ID
 
 from datetime import datetime
@@ -102,8 +102,8 @@ async def clone_txt(client, message, _):
                 "name": bot.first_name,
                 "token": bot_token,
                 "username": bot.username,
-                "channel": "ProBotts",
-                "support": "ProBotGc",
+                "channel": "FROZENTOOLS",
+                "support": "tmm_support_chat",
                 "premium" : False,
                 "Date" : False,
             }
