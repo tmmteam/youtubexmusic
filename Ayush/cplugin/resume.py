@@ -1,14 +1,14 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AyushMusic import app
-from AyushMusic.core.call import PRO
+from Ayush import app
+from Ayush.core.call import PRO
 
-from AyushMusic.utils.decorators import AdminRightsCheck
-from AyushMusic.utils.inline import close_markup
+from Ayush.utils.decorators import AdminRightsCheck
+from Ayush.utils.inline import close_markup
 from config import BANNED_USERS
-from AyushMusic import userbot
-from AyushMusic.core.mongo import mongodb, pymongodb
+from Ayush import userbot
+from Ayush.core.mongo import mongodb, pymongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
