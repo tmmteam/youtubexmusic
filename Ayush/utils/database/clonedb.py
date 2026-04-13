@@ -1,4 +1,4 @@
-from Ayush.core.mongo import mongodb, pymongodb
+from Ayush.core.mongo import mongodb, mongodb
 from typing import Dict, List, Union
 
 cloneownerdb = mongodb.cloneownerdb
