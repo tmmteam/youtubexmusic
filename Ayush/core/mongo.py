@@ -1,32 +1,20 @@
-from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
+from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo import MongoClient
-from pyrogram import Client
-
 import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = ""
+# Check Mongo URI
+if not config.MONGO_DB_URI:
+    LOGGER(__name__).warning("No MONGO DB URL found ❌")
+    raise Exception("MongoDB URI is missing! Add MONGO_DB_URI in .env")
 
+# Async Mongo (Motor)
+mongo_async_client = AsyncIOMotorClient(config.MONGO_DB_URI)
 
-if config.MONGO_DB_URI is None:
-    LOGGER(__name__).warning("No MONGO DB URL found. LOL")
-    temp_client = Client(
-        "Anon",
-        bot_token=config.BOT_TOKEN,
-        api_id=config.API_ID,
-        api_hash=config.API_HASH,
-    )
-    temp_client.start()
-    info = temp_client.get_me()
-    username = info.username
-    temp_client.stop()
-    _mongo_async_ = _mongo_client_(TEMP_MONGODB)
-    _mongo_sync_ = MongoClient(TEMP_MONGODB)
-    mongodb = _mongo_async_[username]
-    mongodb = _mongo_sync_[username]
-else:
-    _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
-    _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
-    mongodb = _mongo_async_.Anon
-    mongodb = _mongo_sync_.Anon
+# Sync Mongo (Pymongo)
+mongo_sync_client = MongoClient(config.MONGO_DB_URI)
+
+# Database name (simple & fixed)
+mongodb = mongo_async_client["Ayush"]
+pymongodb = mongo_sync_client["Ayush"]
