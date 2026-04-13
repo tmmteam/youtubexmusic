@@ -1,9 +1,9 @@
 from pyrogram import filters, Client
 import os
-from AyushMusic import YouTube, app
-from AyushMusic.utils.channelplay import get_channeplayCB
-from AyushMusic.utils.decorators.language import languageCB
-from AyushMusic.utils.stream.stream import stream
+from Ayush import YouTube, app
+from Ayush.utils.channelplay import get_channeplayCB
+from Ayush.utils.decorators.language import languageCB
+from Ayush.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
