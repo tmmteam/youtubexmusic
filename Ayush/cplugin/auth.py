@@ -1,16 +1,16 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from AyushMusic import app
-from AyushMusic.utils import extract_user, int_to_alpha
-from AyushMusic.utils.database import (
+from Ayush import app
+from Ayush.utils import extract_user, int_to_alpha
+from Ayush.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from AyushMusic.utils.decorators import AdminActual, language
-from AyushMusic.utils.inline import close_markup
+from Ayush.utils.decorators import AdminActual, language
+from Ayush.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
