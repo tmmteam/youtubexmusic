@@ -7,8 +7,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import SUPPORT_CHAT, PING_IMG_URL
 from .utils import StartTime
-from AyushMusic.utils import get_readable_time
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Ayush.utils import get_readable_time
+from Ayush.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 
 @Client.on_message(filters.command("ping"))
