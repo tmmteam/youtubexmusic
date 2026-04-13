@@ -1,13 +1,13 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from AyushMusic import app
-from AyushMusic.core.call import PRO
-from AyushMusic.misc import SUDOERS, db
-from AyushMusic.utils import AdminRightsCheck
-from AyushMusic.utils.database import is_active_chat, is_nonadmin_chat
-from AyushMusic.utils.decorators.language import languageCB
-from AyushMusic.utils.inline import close_markup, speed_markup
+from Ayush import app
+from Ayush.core.call import PRO
+from Ayush.misc import SUDOERS, db
+from Ayush.utils import AdminRightsCheck
+from Ayush.utils.database import is_active_chat, is_nonadmin_chat
+from Ayush.utils.decorators.language import languageCB
+from Ayush.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
