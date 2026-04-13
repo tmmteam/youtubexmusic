@@ -1,11 +1,11 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.core.call import PRO
-from Clonify.utils.database import set_loop
-from Clonify.utils.decorators import AdminRightsCheck
-from Clonify.utils.inline import close_markup
+from Ayush import app
+from Ayush.core.call import PRO
+from Ayush.utils.database import set_loop
+from Ayush.utils.decorators import AdminRightsCheck
+from Ayush.utils.inline import close_markup
 from config import BANNED_USERS
 
 
