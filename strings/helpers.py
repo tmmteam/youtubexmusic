@@ -149,3 +149,53 @@ HELP_15 = """
 /speed or /playback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ɢʀᴏᴜᴘ.
 /cspeed or /cplayback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ᴄʜᴀɴɴᴇʟ.
 """
+
+
+# New Clone Bot
+CLONE_HELP = """
+<b><u>Cʟᴏɴᴇ ᴄᴏᴍᴍᴀɴᴅs :</b></u>
+
+<b><u>Aʟʟ Usᴇʀs :</b></u>
+/clone– Cʟᴏɴᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴜsɪɴɢ ᴛʜᴇ Bᴏᴛ Tᴏᴋᴇɴ ғʀᴏᴍ @BotFather.
+<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/clone token paste here</code>
+
+/rmbot – Dᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄʟᴏɴᴇᴅ ʙᴏᴛ.
+<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/rmbot token paste here</code>
+
+/mybot – Cʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛs ʏᴏᴜ'ᴠᴇ ᴄʟᴏɴᴇᴅ.
+
+<b><u>Fᴏʀ Sᴜᴅᴏᴇʀs :</b></u>
+/cloned – Cʜᴇᴄᴋ ʜᴏᴡ ᴍᴀɴʏ ʙᴏᴛs ʜᴀᴠᴇ ʙᴇᴇɴ ᴄʟᴏɴᴇᴅ.
+"""
+
+CLONE_HELP_2 = """
+<b><u>ᴄᴏᴍᴍᴀɴᴅs :</b></u>
+
+/clone – Cʟᴏɴᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ @AqiaBot.
+
+<b><u>Aʟʟ Usᴇʀs :</b></u>
+/mybot – Cʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛs ʏᴏᴜ’ᴠᴇ ᴄʟᴏɴᴇᴅ. [<a href="https://t.me/MUSIC_STREAM_roBot">MUSIC STREAM</a>]
+/botinfo – Oɴʟʏ ғᴏʀ ʙᴏᴛ ᴏᴡɴᴇʀs ᴛᴏ ᴠɪᴇᴡ ʙᴏᴛ ɪɴғᴏ.
+
+<b><u>Pʀᴇᴍɪᴜᴍ Usᴇʀs :</b></u>
+/setchannel – Aᴅᴅ ʏᴏᴜʀ ᴏᴡɴ ᴄʜᴀɴɴᴇʟ ᴛᴏ ʏᴏᴜʀ ʙᴏᴛ.
+/setsupport – Aᴅᴅ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴛᴏ ʏᴏᴜʀ ʙᴏᴛ.
+/broadcast – Sᴇɴᴅ ᴍᴇssᴀɢᴇs ᴛᴏ ᴀʟʟ ʏᴏᴜʀ ʙᴏᴛ's ᴜsᴇʀs. 
+<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/broadcast -user ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ</code>
+
+<b><u>Mᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ᴀᴅᴅᴇᴅ sᴏᴏɴ...</u></b>
+"""
+
+CLONE_LOGGER_HELP = """
+<b><u>Cʟᴏɴᴇ Bᴏᴛ Lᴏɢs Cᴏᴍᴍᴀɴᴅs :</b></u>
+
+- `/setlogger chat_id` - Sᴇᴛ ᴛʜᴇ ʟᴏɢ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ ID ᴡʜᴇʀᴇ ʟᴏɢs ᴡɪʟʟ ʙᴇ sᴇɴᴛ.
+- `/logger [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ]` - Eɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ʟᴏɢɢᴇʀ ғᴏʀ ᴛʜɪs ʙᴏᴛ.
+- `/logstatus</b>` - Cʜᴇᴄᴋ ᴡʜᴇᴛʜᴇʀ ʟᴏɢɢᴇʀ ɪs ᴇɴᴀʙʟᴇᴅ ᴏʀ ᴅɪsᴀʙʟᴇᴅ ᴀɴᴅ sᴇᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ʟᴏɢɢᴇʀ ID.
+
+<b><u>Nᴏᴛᴇs :</b></u>
+- Oɴʟʏ ᴄʟᴏɴᴇ ʙᴏᴛ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs.
+- Iғ ʟᴏɢɢɪɴɢ ɪs ᴇɴᴀʙʟᴇᴅ, ᴀʟʟ ᴘʟᴀʏ ʀᴇǫᴜᴇsᴛs ᴀɴᴅ ᴜsᴇʀ ᴀᴄᴛɪᴏɴs ᴡɪʟʟ ʙᴇ ʟᴏɢɢᴇᴅ ɪɴ ᴛʜᴇ sᴇᴛ ʟᴏɢ ᴄʜᴀᴛ.
+- Tᴏ ᴅɪsᴀʙʟᴇ ʟᴏɢɢɪɴɢ, ᴜsᴇ <code>/logger disable</code>
+"""
+
