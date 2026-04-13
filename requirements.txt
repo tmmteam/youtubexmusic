@@ -13,6 +13,7 @@ psutil
 pyrogram==2.0.106
 tgcrypto
 pytgcalls==2.1.0
+tgcalls==3.0.0.dev6
 python-dotenv
 pyyaml
 requests
@@ -43,7 +44,7 @@ pyttsx3
 pytz
 pytube
 qrcode
-SafoneAPI
+git+https://github.com/AsmSafone/SafoneAPI
 search_engine_parser
 SpeechRecognition
 telegraph
