@@ -6,11 +6,11 @@ import psutil
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from AyushMusic import app
+from Ayush import app
 from config import PING_IMG_URL, STREAM_PICS
 from .utils import StartTime
-from AyushMusic.utils import get_readable_time
-from AyushMusic.utils.decorators.language import language
+from Ayush.utils import get_readable_time
+from Ayush.utils.decorators.language import language
 
 APP_LINK = f"https://t.me/MusicStream_roBot"
 
