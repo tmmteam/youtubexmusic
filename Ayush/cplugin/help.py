@@ -3,18 +3,18 @@ from typing import Union
 from pyrogram import filters, types, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from AyushMusic import app
-from AyushMusic.utils import first_page, second_page
-from AyushMusic.utils.database import get_lang
-from AyushMusic.utils.decorators.language import LanguageStart, languageCB
-from AyushMusic.utils.inline.help import help_back_markup, private_help_panel
+from Ayush import app
+from Ayush.utils import first_page, second_page
+from Ayush.utils.database import get_lang
+from Ayush.utils.decorators.language import LanguageStart, languageCB
+from Ayush import help_back_markup, private_help_panel
 from config import BANNED_USERS, HELP_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 from AyushMusic.misc import SUDOERS
 from time import time
 import asyncio
-from AyushMusic.utils.extraction import extract_user
-from AyushMusic.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Ayush.utils.extraction import extract_user
+from Ayush.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
